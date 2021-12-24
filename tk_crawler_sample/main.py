@@ -58,6 +58,10 @@ class GUI:
 
     # crawl function
     def crawler(self):
+        # set all urls to not done
+        for url in self.url_dic_list:
+            self.url_dic_list.update({url: False})
+
         # disable button (cannot click twice)
         # when crawling done button will be enabled (in html_get function)
         self.button.config(state=tkinter.DISABLED)
