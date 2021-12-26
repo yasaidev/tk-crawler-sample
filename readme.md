@@ -1,6 +1,7 @@
 # tk_crawler_sample
+Python web crawler with the tkiner GUI.
 
-By using therading lib for crawler jobs, this GUI will not be freezing.
+By using therading for crawler jobs, this GUI will not be freezing.
 
 ## Init
 
